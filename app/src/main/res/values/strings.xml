@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReplyMate</string>
+    <string name="accessibility_service_description">
+        ReplyMate reads the text visible in your current chat screen so it can suggest a reply.
+        Everything runs on your phone; nothing is uploaded anywhere.
+    </string>
+</resources>
