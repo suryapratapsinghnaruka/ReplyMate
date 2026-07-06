@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ReplyMate setup"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/status_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Model: not loaded"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_pick_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose .task model file"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/status_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="2. Accessibility service: off"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_enable_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable accessibility service"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/status_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="3. Overlay permission: off"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_enable_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grant draw-over-apps permission"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Start ReplyMate"
+        android:textAllCaps="false"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="12sp"
+        android:textColor="#888888"
+        android:text="Everything runs on your phone. Nothing you type or receive is sent anywhere." />
+
+</LinearLayout>
